@@ -1,0 +1,86 @@
+/* styles/login.css */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+@media (max-width: 500px) {
+  .login-container {
+    /* max-width: 400px; */
+    margin: 100px auto;
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .logo_container {
+    display: flex;
+    padding: 5rem 3rem;
+    padding-top:8rem ;
+    justify-content: center;
+  }
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #3085f3 ;
+    border-radius: 16px;
+    width: 90%;
+    font-size: 20px;
+    outline-color: #1877f2;
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px;
+    background-color: #0869e7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 32px;
+  }
+  
+  button:hover {
+    background-color: #1462aa;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    margin-top: 10px;
+  }
+
+  .password_container {
+    margin: 0;
+  }
+
+  .password_container h2 {
+    color: #3387f4;
+    font-size: 20px;
+  }
+
+  .create_container {
+    margin-top: 6rem;
+    border: #085dcb 1px solid;
+    border-radius: 32px;
+  }
+
+  .create_container h2 {
+    color: #1877f2;
+  
+  }
+
+  .meta {
+    width: 100px;
+    height: 50px;
+  }
+  
+}
