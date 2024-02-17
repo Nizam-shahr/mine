@@ -15,7 +15,7 @@ body {
   .logo_container {
     display: flex;
     padding: 5rem 3rem;
-    padding-top:8rem ;
+    padding-top:4rem ;
     justify-content: center;
   }
   .logo {
